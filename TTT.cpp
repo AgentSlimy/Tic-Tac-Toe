@@ -130,17 +130,17 @@ int main() {
 void printBoard(char board[3][3]) {//Prints the board
   cout << "  a b c" << endl;
   cout << "1 ";
-  for (int i = 0; i < 3; i++) {//Creates the a row
+  for (int i = 0; i < 3; i++) {//Creates the 1 row
     cout << board[i][0] << " ";
   }
   cout << endl;
   cout << "2 ";
-  for (int i = 0; i < 3; i++) {//Creates the b row
+  for (int i = 0; i < 3; i++) {//Creates the 2 row
     cout << board[i][1] << " ";
   }
   cout << endl;
   cout << "3 ";
-  for (int i = 0; i < 3; i++) {//Creates the c row
+  for (int i = 0; i < 3; i++) {//Creates the 3 row
     cout << board[i][2] << " ";
   }
   cout << endl; 
