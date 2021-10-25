@@ -37,7 +37,7 @@ int main() {
         cout << "X turn: " << endl; //Asking for user input
         cin >> input;
         bool move = true;
-        while (move == true) {
+        while (move == true) {//Read in input with help from Stephan Ene
           if (board[readInputRow(input)][readInputCol(input)] == ' ') {//Takes the users input and marks where the user wants to go
             board[readInputRow(input)][readInputCol(input)] = xPlay;
             printBoard(board);
@@ -124,6 +124,7 @@ int main() {
   }
 }
 
+//Board with help from Chris Zou and Stephan Ene
 void printBoard(char board[3][3]) {//Prints the board
   cout << "  1 2 3" << endl;
   cout << "a ";
